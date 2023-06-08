@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 
 def send_email():
     sender_email = "ravipreethi645@gmail.com"
-    receiver_email = "johnvijay7345@gmail.com"
+    receiver_email = "vijayjohn7345@gmail.com"
     subject = "Test Email"
     message = "Hi this is Preethi. You Have a Scrum call @10:30 A.M ."
 
