@@ -15,7 +15,7 @@ def send_email():
     try:
         smtp_server = smtplib.SMTP("smtp.gmail.com", 587)
         smtp_server.starttls()
-        smtp_server.login(sender_email, "rlmv jvoo pzhj ejvu")
+        smtp_server.login(sender_email, "vejm hvle fgun ioxt")
         smtp_server.sendmail(sender_email, receiver_email, msg.as_string())
         smtp_server.quit()
         print("Email sent successfully!")
