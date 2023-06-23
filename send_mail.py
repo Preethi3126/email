@@ -1,6 +1,6 @@
 import smtplib
 from email.mime.text import MIMEText
-
+#this is a sample text
 def send_email():
     sender_email = "ravipreethi645@gmail.com"
     receiver_email = "vijayjohn7345@gmail.com"
